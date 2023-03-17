@@ -1,0 +1,65 @@
+[
+  {
+    "class": "Bliss 10-12 år",
+    "EndTime": "2022-11-13T17:05:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-13T16:05:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-13T18:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-13T17:10:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-13T19:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-13T18:10:00"
+  },
+  {
+    "class": "Bliss 10-12 år",
+    "EndTime": "2022-11-20T17:05:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-20T16:05:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-20T18:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-20T17:10:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-20T19:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-20T18:10:00"
+  },
+  {
+    "class": "Bliss 10-12 år",
+    "EndTime": "2022-11-27T17:05:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-27T16:05:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-27T18:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-27T17:10:00"
+  },
+  {
+    "class": "Bliss 7-9 år",
+    "EndTime": "2022-11-27T19:00:00",
+    "Instructor": "Emma Spitz",
+    "Location": "Sal B, Stenungsund Arena",
+    "StartTime": "2022-11-27T18:10:00"
+  }
+]

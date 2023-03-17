@@ -1,0 +1,195 @@
+:root {
+  --background: #ffffffcc;
+  --white: #fff;
+  --black: #000;
+  --accent: #ececec;
+  --green: #459370;
+  --shadow: #00000033;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(255, 255, 254);
+  justify-content: space-between;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  font-size: 20px;
+}
+
+.page-content {
+  margin: 40px 13vw;
+}
+
+.page-content>* {
+  margin-bottom: 40px;
+}
+
+/* Hamburger */
+.menuBtn {
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48px;
+}
+
+.menuBtn span,
+.menuBtn span:before,
+.menuBtn span:after {
+  border-radius: 10px;
+  background-color: var(--black);
+  height: 4px;
+  position: relative;
+  transition: all .5 ease-in-out;
+  width: 40px;
+}
+
+.menuBtn span:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.menuBtn span:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#header_img {
+  border-radius: 200px;
+  background-color: lightgreen;
+  background-image: url("images/profile.jpeg");
+  box-shadow: 2px 2px 5px var(--shadow);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+#logo {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+  top: 0;
+}
+
+/* Instagram Carousel */
+.carousel {
+  border-radius: 5px;
+  height: 260px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.slide {
+  display: flex;
+  list-style: none;
+}
+
+.slide li {
+  height: 250px;
+  margin: 0 10px;
+}
+
+.slide li:first-child {
+  margin-left: 0;
+}
+
+.slide li:last-child {
+  margin-right: 0;
+}
+
+.slide img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--shadow);
+  height: 100%;
+  width: 250px;
+}
+
+/* Navigation */
+nav ul {
+  background-color: var(--background);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px var(--shadow);
+  height: 85vh;
+  position: absolute;
+  list-style: none;
+  padding: 40px;
+  right: 10px;
+  top: 58px;
+  width: 400px;
+  z-index: -1;
+}
+
+nav a {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+nav a:hover,
+#logo:hover {
+  color: var(--green);
+  transition: all .1s ease-in-out;
+  text-decoration: underline;
+}
+
+/* Workout Cards */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--shadow);
+  /* display: flex;
+  flex-direction: column; */
+  /* Använder <br> istället för flera <p> i index.js för att minska antal tecken.*/
+  padding: 20px;
+  width: 326px;
+}
+
+@media (max-width: 940px) {
+  .card {
+    width: 100%;
+  }
+}
